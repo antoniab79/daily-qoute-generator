@@ -7,15 +7,16 @@
     <title>Qoute of the day</title>
 </head>
 <body>
+    <div class="container">
 <header>
-    <h1>Qoute of the Day AI Generator!</h1>
+    <h1>Qoute of the Day - AI Generator!</h1>
 </header>
 <main>
  <form>
-    <input type="text" placeholder="Enter the topic for insipiration" autofocus required autocomplete="off">
-    <input type="submit" />
+    <input type="text" placeholder="Enter the topic for insipiration" autofocus required autocomplete="off" class="instructions">
+    <input type="submit" class="submit-btn"/>
  </form>   
- <div id="poem">
+ <div class="poem">
     the poem will go here
     <br /> 
     the poem will go here
@@ -23,6 +24,7 @@
 </main>
 <footer>This project was coded by Antonia Bezinovic, is <a href="https://github.com/antoniab79/daily-qoute-generator" target="_blank">open-sourced on GitHub</a> and is hosted on <a href="https://daily-qoute-ai.netlify.app/" target="_blank">Netlify.</a> 
 </footer>
+</div>
 <script src="src/index.js"></script>
 </body>
 </html>
