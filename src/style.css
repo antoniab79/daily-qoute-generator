@@ -45,7 +45,7 @@ form {
     display: flex;
 }
 
-.instructions {
+.user-topic {
     padding: 16px;
     border: 1px solid rgba(39, 33, 66, 0.5);
     width: 80%;

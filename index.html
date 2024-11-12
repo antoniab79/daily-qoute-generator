@@ -1,33 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=h1, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=h1, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Qoute of the day</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-<header>
-    <h1>Qoute of the Day - AI Generator!</h1>
-</header>
-<main>
- <div class="form-container">
-    <form id="qoute-generator-form">
-    <input type="text" placeholder="Enter the topic for insipiration" autofocus required autocomplete="off" class="instructions" />
-    <input type="submit" class="submit-button" />
- </form>   
- <div class="hints">eg. life, love, lust, friendship..</div>
-</div>
- <div class="qoute hidden" id="qoute"></div>
-</main>
+      <header>
+        <h1>Qoute of the Day - AI Generator!</h1>
+      </header>
+      <main>
+        <div class="form-container">
+          <form id="qoute-generator">
+            <input
+              type="text"
+              placeholder="Enter the topic for insipiration"
+              autofocus
+              required
+              autocomplete="off"
+              class="user-topic"
+              id="user-topic"
+            />
+            <input type="submit" name="" id="" class="submit-button" />
+          </form>
+          <div class="hints">eg. life, love, lust, friendship..</div>
+        </div>
+        <div id="qoute" class="qoute"></div>
+      </main>
 
-<footer>This project was coded by Antonia Bezinovic, is <a href="https://github.com/antoniab79/daily-qoute-generator" target="_blank">open-sourced on GitHub</a> and is hosted on <a href="https://daily-qoute-ai.netlify.app/" target="_blank">Netlify.</a> 
-</footer>
-</div>
+      <footer>
+        This project was coded by Antonia Bezinovic, is
+        <a
+          href="https://github.com/antoniab79/daily-qoute-generator"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is hosted on
+        <a href="https://daily-qoute-ai.netlify.app/" target="_blank"
+          >Netlify.</a
+        >
+      </footer>
+    </div>
 
-<script src="src/index.js"></script>
-</body>
+    <script src="src/index.js"></script>
+  </body>
 </html>
